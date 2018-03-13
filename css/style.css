@@ -1,0 +1,128 @@
+.mb-1{
+    text-transform: uppercase;
+}
+
+
+.page-link{
+    background-color: transparent !important;
+    color: #6117e1 !important;
+}
+
+
+.shdw-rnd{
+    padding: 10px;
+    box-shadow:  5px 10px 5px #08080896;
+}
+
+.shdw-smpl{
+    padding: 10px;
+    box-shadow: 4px 5px 10px 5px #0808084b;
+}
+
+
+.bg-color{
+    background-image: url('../img/Star_Wars_Logo.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 70px;  
+}
+
+
+a{
+    cursor: pointer;
+}
+
+body{
+    background-color: #14142C !important;
+    position: relative;
+}
+
+form{
+    padding-top: 10px;
+}
+
+.content{
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #06264d;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.nav-link{
+    color: aliceblue !important;
+}
+
+
+.bg-primary-cstm{
+    background-color: #6c7ddf85 !important;
+}
+
+/*loader*/
+@-webkit-keyframes scale {
+    0% { -webkit-transform:scale(0.8);}
+    50% { -webkit-transform:scale(1);}
+    100% {-webkit-transform:scale(0.8);}
+}
+
+
+
+.loader{
+
+    text-align: center;
+    width:150px;
+}
+.loader .rotated{
+    -webkit-transform-origin:0 0;
+    -webkit-transform:rotate(45deg) scale(0.5);
+
+}
+.loader .rotated div{
+    border:7px solid;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    -webkit-animation: scale 1.2s ease-in-out infinite;
+    color: #000;
+}
+
+.loader div.red{
+    -webkit-transform-origin:50% 50%;
+    border-color: crimson;
+}
+.loader div.blue{
+    -webkit-transform-origin:0 0%;
+    border-color:#024678;
+
+}
+.loader div.black{
+    -webkit-transform-origin:-10% -10%;
+    border-color: greenyellow;
+}

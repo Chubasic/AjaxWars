@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="fixed-top bg-dark col-3 shdw-rnd">
+                <nav class="navbar navbar-dark shdw-smpl  bg-primary-cstm d-flex justify-content-center">
+                    <!-- Navbar content -->
+                    <div class="profile-userpic d-flex justify-content-center">
+                        <img src="https://s3.amazonaws.com/gigsalad_media/t/the_dudethe_big_lebowski_san_jose/5a15c690e1d56_300_sq" class="img-responsive"
+                            alt="">
+                    </div>
+                    <div class="profile-usertitle">
+                        <div class="profile-usertitle-name">
+                            Orest Oleshchuk
+                        </div>
+                        <div class="profile-usertitle-job">
+                            Developer
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="col-3">
+                    <ul class="nav flex-column" id="menu-btns">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-route="people/?page=1">
+                                <span data-feather="shopping-cart"></span>
+                                People
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-route="planets/?page=1">
+                                <span data-feather="shopping-cart"></span>
+                                Plantes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-route="starships/?page=1">
+                                <span data-feather="shopping-cart"></span>
+                                Starships
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="shopping-cart"></span>
+                                Products
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-9 offset-3 bg-color">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" id="search" value="" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="content d-flex align-items-center">
+                    <div class="col-12 d-none" id="posts-body">
+                        <div class="jumbotron shdw-smpl jumbotron-fluid">
+                            <div class="container">
+                                <div class="list-group text-dark" id="char-list">
+
+                                </div>
+                                <div class="modal fade" id="ModalLong" tabindex="-1" role="dialog" aria-labelledby="infoLoreObject" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body" id="mdlBody">
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <div class="loader" id="loader">
+                            <div class="rotated">
+                                <div class="red">
+                                    <div class="blue">
+                                        <div class="black"></div>
+                                    </div>
+                                    <h2>LOADING...</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Scrollspy pagination-->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
